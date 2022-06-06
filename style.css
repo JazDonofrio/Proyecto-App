@@ -15,6 +15,27 @@ header{
 	border-radius: 7px; 
 	
 }
+.campoDeBuqueda {
+	display:flex;
+	position:realtive;
+	margin:35px ;
+	width:60px ;
+	flex-direction:row;
+
+
+}
+.campoDeBuqueda input {
+	flex:1;
+	padding: 10px ;
+	border:0.2em solid rgb(26, 188, 156);
+}
+
+.campoDeBuqueda button {
+	padding: 15px 10px;
+	background-color:rgb(26, 188, 156);
+	color:white;
+	border:none;
+}
 h1{
 	text-align:center;
 	position:relative; 
