@@ -13,53 +13,36 @@ header{
 	background-color: rgb(200, 124, 52);
 	background-position: center;     
 	border-radius: 7px; 
-	
 }
-h1{
-	text-align:center;
-	position:relative; 
-	top:2px;
-	background-color: transparent; 
-}
-
-h3{
-	text-align:center;
-	position:relative; 
-	top:2px;
-	background-color: transparent; 
+.contenedorMenuPrincipal{
+	border: 2px solid black;
+	width: 200px;
+	height: 500px;
+	border-radius: 10px;
+	margin-top: 50px;
 
 }
-
-.menu_principal{ 
-	width:1050px;
-	height:40px;
-	margin-top: 5px;
-	background-color:rgb(255, 255, 255);
-	text-align:center;
-}
-
-
-.menu{
-	float:left;
-	height:40px;
-	width:244px;
-	padding-right:1px;
-	text-align:center; 
-	line-height:40px; 
-	border-radius:10px;
-}
-
-.article{
-	clear:both;
-	position:relative;
-	margin-left:70px; 
-	width:800px;
-	background-color:white;
-	
-}
-
-.imagenes p {
-	position:relative;
+.menu_principal{  /*No borrar o modificar (atte: Pauli)*/
+	float: center;
 	text-align: center;
-
+}
+a:hover{
+	background-color:rgb(255, 115, 0); /* Para que cambie de color cuando pasa por arriba con el mouse */
+}
+.menu{     /*No borrar o modificar (atte: Pauli)*/
+	list-style-type: none;
+	margin: 0px;
+	height:40px;
+	width: 150px;
+	text-align: left;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size:  11pt;
+	background-color: rgb(200, 124, 52);
+	line-height:40px; 
+	border-radius:5px;
+	color: #000;
+	display: block;
+	padding: 5px;
 }
