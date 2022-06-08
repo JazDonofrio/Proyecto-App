@@ -1,47 +1,92 @@
-*{
-    margin: 0 px;
-    padding: 0 px;
-    list-style: none;
+* {
+	margin: 0 px;
+	padding: 0 px;
+	list-style: none;
 	background-color: rgb(235, 255, 248);
 }
-header{
-	
-	width:100%;
-	height:30px;
-	margin:auto; 
+
+header {
+
+	width: 100%;
+	height: 30px;
+	margin: auto;
 
 	background-color: rgb(200, 124, 52);
-	background-position: center;     
-	border-radius: 7px; 
+	background-position: center;
+	border-radius: 7px;
 }
-.contenedorMenuPrincipal{
+
+.contenedorMenuPrincipal {
 	border: 2px solid black;
 	width: 200px;
 	height: 500px;
 	border-radius: 10px;
 	margin-top: 50px;
+}
+
+.campoDeBuqueda {
+	display: flex;
+	position: realtive;
+	margin: 35px;
+	width: 60px;
+	flex-direction: row;
+
 
 }
-.menu_principal{  /*No borrar o modificar (atte: Pauli)*/
+
+.campoDeBuqueda input {
+	flex: 1;
+	padding: 10px;
+	border: 0.2em solid rgb(26, 188, 156);
+}
+
+.campoDeBuqueda button {
+	padding: 15px 10px;
+	background-color: rgb(26, 188, 156);
+	color: white;
+	border: none;
+}
+
+h1 {
+	text-align: center;
+	position: relative;
+	top: 2px;
+	background-color: transparent;
+}
+
+h3 {
+	text-align: center;
+	position: relative;
+	top: 2px;
+	background-color: transparent;
+
+}
+
+.menu_principal {
+	/*No borrar o modificar (atte: Pauli)*/
 	float: center;
 	text-align: center;
 }
-a:hover{
-	background-color:rgb(255, 115, 0); /* Para que cambie de color cuando pasa por arriba con el mouse */
+
+a:hover {
+	background-color: rgb(255, 115, 0);
+	/* Para que cambie de color cuando pasa por arriba con el mouse */
 }
-.menu{     /*No borrar o modificar (atte: Pauli)*/
+
+.menu {
+	/*No borrar o modificar (atte: Pauli)*/
 	list-style-type: none;
 	margin: 0px;
-	height:40px;
+	height: 40px;
 	width: 150px;
 	text-align: left;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-family: Arial, sans-serif;
-	font-size:  11pt;
+	font-size: 11pt;
 	background-color: rgb(200, 124, 52);
-	line-height:40px; 
-	border-radius:5px;
+	line-height: 40px;
+	border-radius: 5px;
 	color: #000;
 	display: block;
 	padding: 5px;
