@@ -3,7 +3,7 @@ body {
     font-family: monospace;
     font-weight: normal;
     font-size: 100%;
-    color: #060606;
+    color: #000000;
     
     margin: 0;
     background-color: #000000;
@@ -19,7 +19,7 @@ body {
     width: 100%;
     height: 100%;
     
-    background-image: url(../Imageneslogin/fondo_difuminado_login.jpg);
+    background-image: url(../Imageneslogin/fondoDifuminadoLogin.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -35,7 +35,7 @@ body {
     max-width: 900px;
     width: 90%;
     
-    background-color: #0C0636;
+    background-color: #0b062d;
     filter: alpha(opacity=50);
     
     border-radius: 10px 10px 10px 10px;
@@ -55,7 +55,7 @@ body {
     max-width: 320px;
     min-width: 320px;
     padding: 15px 20px 20px 20px;
-    background-color: #99b1b2;
+    background-color: #5d8f90;
     
     -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
     -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
@@ -83,7 +83,7 @@ body {
 #login input {
     font-family: monospace;
     font-size: 110%;
-    color: #1b262c;
+    color: #000000;
     
     display: block;
     width: 100%;
@@ -102,7 +102,7 @@ body {
 
 #login input::placeholder {
     font-family: monospace;
-    color: #dadada;
+    color: #717171;
 }
 
 #login button {
@@ -118,13 +118,14 @@ body {
     -moz-border-radius: 3px 3px 3px 3px;
     -webkit-border-radius: 3px 3px 3px 3px;
     
-    background-color: #dfcdc3;
+    background-color: #bbbbbc;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
     margin-top: 10px;
 }
 
 #login button:hover {
 
-    background-color: #3c4245;
+    background-color: #363838;
     color:#ffffff;
 }
 #derecho {
