@@ -1,0 +1,101 @@
+
+#topBar {
+  display: flex;
+  flex-direction: row;
+  height: 35px;
+  background-color: #0ac923;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title {
+  flex: 1;
+  -webkit-app-region:drag;
+}
+  
+
+  
+  /*.titleBar .toggleButton {
+    width: 45px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background-image: url('../icons/icon_menu.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border-radius: 15px 0 0 0; 
+    transition: 0.2s;
+    cursor: pointer;
+  }*/
+  
+  /*.titleBar .toggleButton:hover {
+    background-color: #272C36;
+  }*/
+  
+/*.titleBar .toggleButton:active {
+    background-color: #4F9FEE;
+}*/
+  
+.titleBar img {
+    margin-left: 10px;
+}
+  
+
+  
+.titleBarBtns {
+  display:flex;
+  height: inherit;
+  background-color: transparent;
+}
+  
+.topBtn {
+    width: 35px;
+    height: 35px;
+    border: none;
+    outline: none; 
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.2s;
+    cursor: pointer;
+}
+  
+.titleBarBtns .topBtn:hover {
+  background-color: #272C36;
+}
+  
+.titleBarBtns .topBtn:active {
+  background-color: #4F9FEE;
+}
+  
+.titleBarBtns #minimizeBtn {
+  background-image: url('../iconos/boton_-.png');
+  background-size: contain;
+}
+  
+  .titleBarBtns #maxResBtn.maximizeBtn {
+    background-image: url('../iconos/boton_minimizar.png');
+    background-size: contain;
+  }
+  
+.titleBarBtns #maxResBtn.restoreBtn {
+    background-image: url('../iconos/boton_-.png');
+    background-size: contain;
+}
+  
+  .titleBarBtns #closeBtn {
+    /* border-radius: 0 15px 0 0; */
+    background-image: url('../iconos/boton_X.png');
+    background-size: contain;
+  }
+  
+  .titleBarBtns .closeBtn:hover {
+    background-color: #ee4f4f;
+  }
+  
+  .titleBarBtns .closeBtn:active {
+    background-color: #4b0000;
+  }
+  

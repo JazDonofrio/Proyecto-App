@@ -1,6 +1,8 @@
 // Modules to control application life and create native browser window
-const {app, BrowserWindow} = require('electron')
+const {app, BrowserWindow, ipcMain} = require('electron')
 const path = require('path')
+const electronReload = require('electron-reload')
+
 
 require('electron-reload')(__dirname, {
   electron: path.join(__dirname, 'node_modules', '.bin', 'electron'),
@@ -8,7 +10,7 @@ require('electron-reload')(__dirname, {
 });
 function createWindow () {
   // Create the browser window.
-  const mainWindow = new BrowserWindow({
+  const myWindow = new BrowserWindow({
     width: 800,
     height: 600,
     minWidth: 400,
@@ -23,15 +25,35 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadFile('index.html')
+  myWindow.loadFile('index.html')
 
   // Open the DevTools.
-  // mainWindow.webContents.openDevTools()
+  // myWindow.webContents.openDevToo  s()
+
+  ipcMain.on('minimizeApp', () => {
+    myWindow.minimize()
+  })
+
+  ipcMain.on('maximizeRestoreApp', () => {
+    if (myWindow.isMaximized()) myWindow.unmaximize()
+    else myWindow.maximize()
+  })
+
+  ipcMain.on('closeApp', () => {
+    myWindow.close()
+  })
+
+
+  myWindow.on("maximize", () => {
+    myWindow.webContents.send("isMaximized")
+  })
+  myWindow.on("unmaximize", () => {
+    myWindow.webContents.send("isRestored")
+  })
+
 }
 
-// This method will be called when Electron has finished
-// initialization and is ready to create browser windows.
-// Some APIs can only be used after this event occurs.
+
 app.whenReady().then(() => {
   createWindow()
 
