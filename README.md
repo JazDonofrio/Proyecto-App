@@ -26,6 +26,7 @@ Como proyecto final del Laboratorio de construcción de Software vamos a realiza
 
  - [x] Creación del inicio en el index
 > - [x] Agregar estilo al inicio
+> - [x] Cambios del contenido del inicio.
 
 ### Paula
  - [x] Creación de la plantilla de perfil de usuario
