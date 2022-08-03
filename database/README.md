@@ -9,11 +9,11 @@
 	Configuracion
 	Nombre
 	Apellido
-#####Comentarios
+##### Comentarios
 	Autor
 	Comentario
 	Fecha y hora
-#####Galeria
+##### Galeria
 	Imagenes
 
 ------------
