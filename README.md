@@ -29,7 +29,7 @@ Como proyecto final del Laboratorio de construcción de Software vamos a realiza
 > - [x] Cambios del contenido del inicio.
 
 ### Paula
- - [x] Creación de la plantilla de perfil de usuario
+ - [x] Continuar con el perfil de usuario
 >  - [x] Estilo del perfil
  - [x] Creación de menú lateral
 > - [x] Estilo del menú
