@@ -1,8 +1,9 @@
 // Modules to control application life and create native browser window
 const {app, BrowserWindow, ipcMain} = require('electron')
 const path = require('path')
-const electronReload = require('electron-reload')
 
+
+require("./database/database.js")
 
 require('electron-reload')(__dirname, {
   electron: path.join(__dirname, 'node_modules', '.bin', 'electron'),
