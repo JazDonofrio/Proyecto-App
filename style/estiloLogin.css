@@ -1,9 +1,9 @@
 /* efectos por defecto */
 body {
-    font-family: 'Overpass', sans-serif;
+    font-family: monospace;
     font-weight: normal;
     font-size: 100%;
-    color: #1b262c;
+    color: #000000;
     
     margin: 0;
     background-color: #000000;
@@ -14,15 +14,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    margin: 0;
-    padding: 0;
     min-width: 100vw;
     min-height: 100vh;
     width: 100%;
     height: 100%;
     
-    background-image: url(../Imageneslogin/fondo_difuminado_login.jpg);
+    background-image: url(../Imageneslogin/fondoDifuminadoLogin.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -38,9 +35,7 @@ body {
     max-width: 900px;
     width: 90%;
     
-    background-color: #282828;
-    
-    opacity: 0.5\0;
+    background-color: #0b062d;
     filter: alpha(opacity=50);
     
     border-radius: 10px 10px 10px 10px;
@@ -56,11 +51,11 @@ body {
 }
 
 #login {
-    width: 95%;
+    width: 100%;
     max-width: 320px;
     min-width: 320px;
     padding: 15px 20px 20px 20px;
-    background-color: #719192;
+    background-color: #5d8f90;
     
     -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
     -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
@@ -78,17 +73,17 @@ body {
 
 #login label {
     display: block;
-    font-family: 'Overpass', sans-serif;
+    font-family: monospace;
     font-size: 120%;
-    color:#3c4245;
+    color:#000000;
     
     margin-top: 15px;
 }
 
 #login input {
-    font-family: 'Overpass', sans-serif;
+    font-family: monospace;
     font-size: 110%;
-    color: #1b262c;
+    color: #000000;
     
     display: block;
     width: 100%;
@@ -106,14 +101,15 @@ body {
 }
 
 #login input::placeholder {
-    font-family: 'Overpass', sans-serif;
-    color: #E4E4E4;
+    font-family: monospace;
+    color: #717171;
 }
 
 #login button {
-    font-family: 'Overpass', sans-serif;
+
+    font-family: monospace;
     font-size: 110%;
-    color:#1b262c;
+    color:#000000;
     width: 100%;
     height: 30px;
     border: none;
@@ -122,18 +118,17 @@ body {
     -moz-border-radius: 3px 3px 3px 3px;
     -webkit-border-radius: 3px 3px 3px 3px;
     
-    background-color: #dfcdc3;
-    
+    background-color: #bbbbbc;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
     margin-top: 10px;
 }
 
 #login button:hover {
-    background-color: #3c4245;
-    color:#dfcdc3;
+
+    background-color: #363838;
+    color:#ffffff;
 }
 #derecho {
-
-    
     text-align: center;
     width: 100%;
     
@@ -146,7 +141,7 @@ body {
 
 .titulo {
     font-size: 300%;
-    color:#dfcdc3;
+    color:#ffffff;
 }
 
 .logo-empresa img {
@@ -154,7 +149,7 @@ body {
 }
 
 hr {
-    border-top: 1px solid #8c8b8b;
+    border-top: 1px solid #6a6a6a;
 	border-bottom: 1px solid #dfcdc3;
     
 }
@@ -167,12 +162,12 @@ hr {
 .pie-form a {
     display: block;
     text-decoration: none;
-    color: #dfcdc3;
+    color: #ffffff;
     margin-bottom: 3px;
 }
 
 .pie-form a:hover {
-    color: #719192;
+    color: #ffffff;
 }
 
 @media all and (max-width: 775px)

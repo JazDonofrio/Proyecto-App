@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-app",
+  "version": "1.0.0",
+  "description": "Red social para escritorio",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JazDonofrio/Proyecto-App.git"
+  },
+  "author": "Ezequiel Benitez, Tamar Hernandez, Jazmin Donofrio, Paula Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JazDonofrio/Proyecto-App/issues"
+  },
+  "homepage": "https://github.com/JazDonofrio/Proyecto-App#readme",
+  "devDependencies": {
+    "electron": "^19.0.3"
+  },
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}

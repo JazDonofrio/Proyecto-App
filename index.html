@@ -4,30 +4,318 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">	
-    <title>Animales del mundo</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="style/style.css">	
+    <link rel="stylesheet" href="style/marco.css">
+
+	
+	<title>Red Social</title>
 </head>
 <body>
-    <body>
-		
-		<header>
-			
-		</header>
-		
-		<div class="contenedorMenuPrincipal">  <!--Parte de Pauli-->
-			<div class="menu_principal">
-			<ul>
-				<li><a class="menu" href="animalesAmerica.html">Inicio</a></li>
-				<li><a class="menu" href="perfil.html">Perfil</a></li>
-				<li><a class="menu" href="animalesAsia.html">Notificaciones</a></li>
-				<li><a class="menu" href="animalesOceania.html">Configuración</a></li>
-			</ul>
+	<div id="mainApp">
+		<script id="replace_with_navbar" src="marco.js"></script>
+		<div id ="contentArea">
+			<div id="mySidebar" class="leftMenu">
+	
+			</div>
+			<div id="contentPage">
+	
 			</div>
 		</div>
-		<br></br>
+	</div>
+	
+	<header>
+		<div class="campoDeBuqueda" id="busqueda">
+
+			<!-- busqueda-->
+			<input id="inputBusqueda" type="search" name="barraBusqueda" placeholder="buscar algo">
+			<!-- boton de busqueda -->
+			<button id="boton" type="submit" title="boton"> boton</button>
+
+		</div>
+	</header>
+	
+	<div class="contenedorMenuPrincipal">  <!--Parte de Pauli-->
+		<div class="menu_principal">
+		<ul>
+			<li><a class="menu" href=".html">Inicio</a></li>
+			<li><a class="menu" href="perfil.html">Perfil</a></li>
+			<li><a class="menu" href=".html">Notificaciones</a></li>
+			<li><a class="menu" href=".html">Configuración</a></li>
+		</ul>
+		</div>
+	</div>
+	<br></br>
 
 
- 
+	<!-- Parte Tamii -->
+	<div class="contenedorPublicacion">
+		<body>
+			<div class="col-md-8 col-lg-6 vstack gap-4">
+					<!-- Posteo propio -->
+					<div class="posteo posteo-body">
+						<div class="d-flex mb-3">
+							<div class="avatar avatar-xs me-2"><a href="#"> <img class="avatar-img rounded-circle" src="ImagenesIndex\2.jpg" alt=""> </a></div>
+							<!-- Escribir -->
+							<form class="w-10 0"><textarea class="form-control pe-4 border-0" rows="2" data-autoresize="" placeholder="Comparte lo que piensas..."></textarea></form>
+						</div>
+					<!-- Opciones posteo -->
+						<ul class="nav">
+							<li><a class="nav-link" href="#!">Foto</a></li>
+							<li><a class="nav-link" href="#!">Video</a></li>
+							<li><a href="#" class="nav-link">Evento </a></li>
+							<li><a class="nav-link" href="#!">Actividad</a></li>
+						</ul>
+					</div>
+					<div class="posteo">
+					<div class="posteo-header">
+						<div>
+							<div>
+								<ul class="nav">
+									<!-- Perfil -->
+									<li class="separacion"><a class="avatar" href="#!"> <img class="avatar-img rounded-circle" src="ImagenesIndex\1.jpg" alt=""> </a></li>
+									<!-- Info -->
+									<li class="sep-text"><h6> <a href="#!"> Lori Ferguson </a></h6></li>
+									<li class="sep-hora"><span> 7hr</span></li>
+								</ul>
+								<p>De vacaciones en Madrid</p>
+							</div>
+						</div>
+					</div>
+					<!-- posteo -->
+					<div class="posteo-body">
+						<p>Encantada de poder compartir mi felicidad junto a ustedes!</p>
+						<!-- imgagen de la publicacion -->
+						<img class="card-img" src="ImagenesIndex\1.jpg" alt="Post">
+						<!-- reaccion a la publicacion -->
+						<ul class="nav nav-stack py-3 small">
+						<li class="nav-item"><a class="nav-link active" href="#!"> </i>Me gusta (56)</a></li>
+						<li class="nav-item"><a class="nav-link" href="#!"></i>Comentarios (12)</a></li>
+						<li class="nav-item dropdown ms-sm-auto"><a class="nav-link mb-0" href="#" id="cardShareAction" data-bs-toggle="dropdown" aria-expanded="false">Enviar (3)</a></li>
+						</ul>
+						<!-- caja coment -->
+						<div class="d-flex mb-3">
+						<!-- perfil propio -->
+						<div>
+							<ul class="nav">
+								<!-- Comentario personal  -->
+								<li class="avatar"><a href="#!"> <img class="avatar-img rounded-circle" src="ImagenesIndex\2.jpg" alt=""> </a></li>
+								<!-- Comentario -->
+								<li class="sep-text"><form><textarea data-autoresize="" class="form-control" rows="1" placeholder="Añadir comentario..."></textarea></form></li>
+						</div>
+						<ul class="comment-wrap list-unstyled">
+						<li class="comment-item">
+							<div>
+								<div >
+									<!-- Comentario de -->
+									<div>
+										<div>
+											<div>
+												<ul class="nav">
+													<!-- Perfil -->
+													<li class="separacion"><a class="avatar" href="#!"> <img class="avatar-img rounded-circle" src="ImagenesIndex\3.jpg" alt=""> </a></li>
+													<!-- Info -->
+													<li class="sep-text"><h6> <a href="#!">Fran Guerrero </a></h6></li>
+													<li class="sep-hora"><span>5hr</span></li>
+												</ul>
+												<p>Pasalo hermoso, amiga!!!! Besoos, pronto nos veremos!</p>
+											</div>
+										</div><p class="small mb-0"></p>
+									</div>
+									<!-- reaccion de comentario -->
+									<ul class="nav nav-divider py-2 small">
+									<li class="nav-item"><a class="nav-link" href="#!"> Me gusta (3)</a></li>
+									<li class="nav-item"><a class="nav-link" href="#!"> Responder</a></li>
+									<li class="nav-item"><a class="nav-link" href="#!"> Ver 5 respuestas</a></li>
+									</ul>
+								</div>
+							</div>
+							<ul class="comment-item-nested list-unstyled">
+								<li class="comment-item">
+									<div class="d-flex">
+									<!-- perfil -->
+									<div class="avatar avatar-xs"><a href="#!"><img class="avatar-img rounded-circle" src="ImagenesIndex\4.jpg" alt=""></a></div>
+									<!-- Comtario de -->
+									<div class="ms-2">
+										<div class="bg-light p-3 rounded">
+											<div class="d-flex justify-content-between">
+												<h6 class="mb-1"> <a href="#!"> Mar Stevens </a> </h6>
+												<small class="ms-2">2hr</small>
+											</div><p class="small mb-0">Nos veremos en la cena general! NO FALTEEEEN</p></div>
+											<!-- reaccion de comentario -->
+											<ul class="nav nav-divider py-2 small">
+											<li class="nav-item"><a class="nav-link" href="#!"> Me gusta (5)</a></li>
+											<li class="nav-item"><a class="nav-link" href="#!"> Responder</a></li>
+											</ul>
+										</div>	
+									</div>
+								</li>
+								<li class="comment-item">
+									<div class="d-flex">
+										<!-- perfil-->
+										<div class="avatar avatar-story avatar-xs"><a href="#!"><img class="avatar-img rounded-circle" src="ImagenesIndex\5.jpg" alt=""></a></div>
+										<!-- Comentario de -->
+										<div class="ms-2">
+											<div class="bg-light p-3 rounded">
+											<div class="d-flex justify-content-between">
+												<h6 class="mb-1"> <a href="#!"> Billy Vasquez </a> </h6>
+												<small class="ms-2">15min</small>
+											</div><p class="small mb-0">Jaja siii! Allá nos vemoos, Saludoos.</p></div>
+											<!-- reaccion de comentarios -->
+											<ul class="nav nav-divider py-2 small">
+												<li class="nav-item"><a class="nav-link" href="#!"> Me gusta (3)</a></li>
+												<li class="nav-item"><a class="nav-link" href="#!"> Responder</a></li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								</ul>
+									<a href="#!" class="btn btn-link btn-link-loader btn-sm text-secondary d-flex align-items-center mb-3 ms-5" data-bs-toggle="button" aria-pressed="true">
+									<div class="spinner-dots me-2">
+										<span class="spinner-dot"></span>
+										<span class="spinner-dot"></span>
+										<span class="spinner-dot"></span>
+									</div>
+									Cargar mas respuestas
+									</a>
+								</li>
+							<li class="comment-item">
+								<div class="d-flex">
+								<!-- perfil -->
+								<div class="avatar avatar-xs"><a href="#!"><img class="avatar-img rounded-circle" src="ImagenesIndex\6.jpg" alt=""></a></div>
+								<!-- Comentario de -->
+								<div class="ms-2">
+									<div class="bg-light p-3 rounded">
+									<div class="d-flex justify-content-between">
+										<h6 class="mb-1"> <a href="#!"> Guss Maliben </a> </h6>
+										<small class="ms-2">4min</small>
+									</div>
+									<p class="small mb-0">Feliz se te ve amiga, a ver si me visitass! Estoy en zona centro, comunicate conmigoo. Besoooos <3 </p>
+									</div>
+									<!-- reacion de comentarios -->
+										<ul class="nav nav-divider pt-2 small">
+											<li class="nav-item"><a class="nav-link" href="#!"> Me gusta (1)</a></li>
+											<li class="nav-item"><a class="nav-link" href="#!">Responder</a></li>
+											<li class="nav-item"><a class="nav-link" href="#!"> Ver 6 respuestas</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="card-footer border-0 pt-0">
+						<!-- Ver + comentarios -->
+						<a href="#!"  class="btn btn-link btn-link-loader btn-sm text-secondary d-flex align-items-center" data-bs-toggle="button" aria-pressed="true">
+						<div class="spinner-dots me-2">
+							<span class="spinner-dot"></span>
+							<span class="spinner-dot"></span>
+							<span class="spinner-dot"></span>
+						</div>Ver mas comentarios</a>
+					</div>
+					</div>
+					<div class="posteo">
+					<div class="posteo-header border-0 pb-0">
+						<div class="d-flex align-items-center justify-content-between">
+						<div class="d-flex align-items-center">
+							<!-- prfil -->
+							<div class="avatar avatar-story me-2"><a href="#!"> <img class="avatar-img rounded-circle" src="ImagenesIndex\7.jpg" alt=""> </a></div>
+							<!-- Info -->
+							<div>
+							<div class="nav nav-divider">
+								<h6 class="nav-item card-title mb-0"> <a href="#!"> Amii Brigh </a></h6>
+								<span class="nav-item small"> 10hr</span>
+							</div><p class="mb-0 small">Publicado desde iPhone</p></div>
+						</div>
+						</div>
+					</div>
+					<div class="posteo-body">
+						<p>En Las guerras no tienen memoria y nadie se atreve a comprenderlas hasta que ya no quedan voces para contar lo que pasó, hasta que llega el momento en que no se las reconoce y regresan, con otra cara y otro nombre, a devorar lo que dejaron atrás.</p>
+						<!-- img -->
+						<img class="card-img" src="ImagenesIndex/post1.jpg" alt="Post">
+						<ul class="nav nav-stack py-3 small">
+						<li class="nav-item"><a class="nav-link active" href="#!"> <i class="bi bi-hand-thumbs-up-fill pe-1"></i>Me gusta (56)</a></li>
+						<li class="nav-item"><a class="nav-link" href="#!"> <i class="bi bi-chat-fill pe-1"></i>Comentarios (12)</a></li>
+						</ul>
+						<!-- Añadir coment -->
+						<div class="d-flex mb-3">
+						<!-- perfil -->
+						<div class="avatar avatar-xs me-2"><a href="#!"> <img class="avatar-img rounded-circle" src="ImagenesIndex/2.jpg""> </a></div>
+						<!-- Comentario -->
+						<form class="w-100"><textarea data-autoresize="" class="form-control pe-4 bg-light" rows="1" placeholder="Añadir comentario..."></textarea></form>
+						</div>
+					</div>
+					</div>
+					<div class="posteo">
+					<div class="posteo-header border-0 pb-0">
+						<div class="d-flex align-items-center justify-content-between">
+						<div class="d-flex align-items-center">
+							<!-- perfil -->
+							<div class="avatar me-2"><a href="#"> <img class="avatar-img rounded-circle" src="ImagenesIndex\8.jpg" alt=""> </a></div>
+							<!-- Info -->
+							<div>
+								<h6 class="card-title mb-0"> <a href="#">Judy Nguyen</a></h6><div class="nav nav-divider"><p class="nav-item mb-0 small">Desarrollador en Web</p></div>
+							</div>
+						</div>
+						</div>
+					</div>
+					<!-- nuevo posteo-->
+					<div class="posteo-body">
+						<p>FELIZ DIA! MASCOTAS! </a>Animales jebdiywie  gqhvwgdv hqvdyh hqbuixvqu bdhevc isduiqeb ksnsnubs hshjdhbh sjbwdvjdj hjbxdejhcb <a href="#!"> #mascotas</a> <a href="#!"> #diadelanimal</a> <a href="#!"> #love</a> <a href="#"> #happy </a></p>
+						<!-- imagenes -->
+						<div class="d-flex justify-content-between">
+						<div class="row g-3">
+							<div class="col-6"><a class="h-100" href="ImagenesIndex\mascotas1.jpg" data-glightbox="" data-gallery="image-popup"><img class="rounded img-fluid" src="ImagenesIndex\mascotas1.jpg" alt="Image"></a>
+							</div>
+							<div class="col-6"><a href="ImagenesIndex\mascotas2.jpg" data-glightbox="" data-gallery="image-popup"><img class="rounded img-fluid" src="ImagenesIndex\mascotas2.jpg" alt="Image"></a>
+							<div class="position-relative bg-dark mt-3 rounded">
+								<div class="hover-actions-item position-absolute top-50 start-50 translate-middle z-index-9"><a class="btn btn-link text-white" href="#"> Ver mas </a>
+								</div><a href="ImagenesIndex\mascotas3.jpg" data-glightbox="" data-gallery="image-popup"><img class="img-fluid opacity-50 rounded" src="ImagenesIndex\mascotas3.jpg" alt=""></a>
+							</div>
+							</div>
+						</div>
+						</div>
+						<!-- mg, compartir y reenviar -->
+						<ul class="nav nav-pills nav-pills-light nav-fill nav-stack small border-top border-bottom py-1 mb-3">
+						<li class="nav-item"><a class="nav-link mb-0 active" href="#!"> <i class="bi bi-heart pe-1"></i>Me gusta (56)</a></li>
+						<li class="nav-item dropdown"><a href="#" class="nav-link mb-0" id="cardShareAction4" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-reply-fill flip-horizontal ps-1"></i>Compartir (3)</a></li>
+						<li class="nav-item"><a class="nav-link mb-0" href="#!"> <i class="bi bi-send-fill pe-1"></i>Enviar</a></li>
+						</ul>
+	
+						<ul class="comment-wrap list-unstyled">
+						<li class="comment-item">
+							<div class="d-flex">
+							<!-- perfil -->
+							<div class="avatar avatar-xs"><a href="#"> <img class="avatar-img rounded-circle" src="ImagenesIndex\mascotas1.jpg" alt=""> </a></div>
+							<div class="ms-2">
+								<!-- Comentario de .. -->
+								<div class="bg-light rounded-start-top-0 p-3 rounded">
+								<div class="d-flex justify-content-between">
+									<h6 class="mb-1"> <a href="#!"> Frances Guerrero </a></h6>
+									<small class="ms-2">5hr</small>
+								</div>
+								<p class="small mb-0">hhhhhhh hvugv kgyfcgfc.</p>
+								</div>
+								<!-- reacciones de comentarios-->
+								<ul class="nav nav-divider py-2 small">
+								<li class="nav-item"><a class="nav-link" href="#!"> Me gusta (3)</a></li>
+								<li class="nav-item"><a class="nav-link" href="#!"> Respuestas</a></li>
+								<li class="nav-item"><a class="nav-link" href="#!"> Ver 3 respuestas</a></li>
+								</ul>
+							</div>
+						</div>
+							<!-- cargar + -->
+							<a href="#!" role="button" class="btn btn-link btn-link-loader btn-sm text-secondary d-flex align-items-center mb-3 ms-5" data-bs-toggle="button" aria-pressed="true">
+							<div class="spinner-dots me-2">
+								<span class="spinner-dot"></span><span class="spinner-dot"></span><span class="spinner-dot"></span>
+							</div>
+							Cargar mas respuestas 
+							</a></li></ul></div>
+					</div>
+			</body>
+	</div>	
+	<!-- Parte Tamii - Final -->
+
 </body>
 </html>
 
