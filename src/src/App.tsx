@@ -1,10 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Button from '@mui/material/Button';
+import IconButton from '@mui/material/IconButton';
+import PhotoCamera from '@mui/icons-material/PhotoCamera';
+import AppBar from './ComponentesMaterial/BarraApp';
 
 function App() {
 	return (
 		<body>
+			<IconButton color="primary" aria-label="upload picture" component="label">
+        		<input hidden accept="image/*" type="file" />
+       			 <PhotoCamera />
+      		</IconButton>
 			<div id="mainApp">
 				<script id="replace_with_navbar" src="marco.js"></script>
 				<div id ="contentArea">
@@ -16,7 +23,7 @@ function App() {
 					</div>
 				</div>
 			</div>
-			
+			<AppBar></AppBar>
 			<header>
 				<div className="campoDeBuqueda" id="busqueda">
 
@@ -105,5 +112,6 @@ function App() {
 	);
 	
 }
-
 export default App;
+
+
