@@ -20,13 +20,13 @@ function createWindow () {
     webPreferences: {
         nodeIntegration: true,
         contextIsolation: false,
-        devTools: true,
+        devTools: false,
         preload: path.join(__dirname, 'preload.js')
     }
   })
 
   // and load the index.html of the app.
-  myWindow.loadFile('index.html')
+  myWindow.loadURL("http://localhost:3000");
 
   // Open the DevTools.
   // myWindow.webContents.openDevToo  s()
