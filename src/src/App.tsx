@@ -1,59 +1,38 @@
 import React from 'react';
 import './App.css';
-import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import PhotoCamera from '@mui/icons-material/PhotoCamera';
 import AppBar from './ComponentesMaterial/BarraApp';
+import RecipeReviewCard  from './ComponentesMaterial/publi';
 
 function App() {
 	return (
 		<body>
-			<IconButton color="primary" aria-label="upload picture" component="label">
-        		<input hidden accept="image/*" type="file" />
-       			 <PhotoCamera />
-      		</IconButton>
 			<div id="mainApp">
 				<script id="replace_with_navbar" src="marco.js"></script>
 				<div id ="contentArea">
-					<div id="mySidebar" className="leftMenu">
-			
-					</div>
+					<div id="mySidebar" className="leftMenu"></div>
 					<div id="contentPage">
 			
 					</div>
 				</div>
 			</div>
 			<AppBar></AppBar>
+			<IconButton color="primary" aria-label="upload picture" component="label">
+        		<input hidden accept="image/*" type="file" />
+       			 <PhotoCamera />
+      		</IconButton>
 			<header>
-				<div className="campoDeBuqueda" id="busqueda">
-
-					{/*<!-- busqueda -->*/}
-					<input 
-					name="barraBusqueda" 
-					id="inputBusqueda" 
-					type="search" 
-					placeholder="buscar algo"/>
-					{/*<!-- boton de busqueda -->*/}
-					<button id="boton" type="submit" title="boton"> boton</button>
-
-				</div>
+	
 			</header>
-			
-			<div className="contenedorMenuPrincipal">  {/*<!--Parte de Pauli-->*/}
-				<div className="menu_principal">
-				<ul>
-					<li><a className="menu" href=".html">Inicio</a></li>
-					<li><a className="menu" href="perfil.html">Perfil</a></li>
-					<li><a className="menu" href=".html">Notificaciones</a></li>
-					<li><a className="menu" href=".html">Configuración</a></li>
-				</ul>
-				</div>
-			</div>
-			<br>
-			</br>
+	
 
-
-
+			<RecipeReviewCard></RecipeReviewCard>
+			<br></br>
+			<RecipeReviewCard></RecipeReviewCard>
+			<br></br>
+			<RecipeReviewCard></RecipeReviewCard>
+			<br></br>
 			{/*<!-- Parte Tamii -->*/}
 			<div className="contenedorPublicacion">
 				<div className="col-md-8 col-lg-6 vstack gap-4">
