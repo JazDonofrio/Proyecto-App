@@ -33,9 +33,11 @@ function App() {
 				<Grid item>
 					<RecipeReviewCard></RecipeReviewCard>
 				</Grid>
+
 				<Grid item>
 					<RecipeReviewCard></RecipeReviewCard>
 				</Grid>
+				
 				<Grid item>
 					<RecipeReviewCard></RecipeReviewCard>
 				</Grid>

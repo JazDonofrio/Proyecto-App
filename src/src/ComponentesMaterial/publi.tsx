@@ -42,7 +42,7 @@ export default function RecipeReviewCard() {
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-            R
+            J
           </Avatar>
         }
         action={
@@ -64,6 +64,7 @@ export default function RecipeReviewCard() {
           Holaaaa
         </Typography>
       </CardContent>
+
       <CardActions disableSpacing>
         <IconButton aria-label="add to favorites">
           <FavoriteIcon />
@@ -80,21 +81,17 @@ export default function RecipeReviewCard() {
           <ExpandMoreIcon />
         </ExpandMore>
       </CardActions>
+
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
+
           <Typography paragraph>Comentarios</Typography>
-          <Typography paragraph>
-           -- Wendia
-          </Typography>
-          <Typography paragraph>
-            --Hola como estas
-          </Typography>
-          <Typography paragraph>
-          --Bien y vos
-          </Typography>
-          <Typography>
-            --Hola
-          </Typography>
+          <Typography paragraph>-- Wendia</Typography>
+
+          <Typography paragraph>--Hola como estas</Typography>
+          <Typography paragraph>--Bien y vos</Typography>
+          <Typography>--Hola</Typography>
+          
         </CardContent>
       </Collapse>
     </Card>
