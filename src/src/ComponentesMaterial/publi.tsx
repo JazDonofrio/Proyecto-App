@@ -14,7 +14,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
-
+import Imagen from './Imagenes/Imagen1.jpg';
 interface ExpandMoreProps extends IconButtonProps {
   expand: boolean;
 }
@@ -50,14 +50,14 @@ export default function RecipeReviewCard() {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Shrimp and Chorizo Paella"
+        title="---Jazmin D'Onofrio---"
         subheader="September 14, 2016"
       />
-      <CardMedia
+      
+      <CardMedia sx={{ maxWidth: 345, margin: "auto" }}
+        src={Imagen} alt="Imagen" 
         component="img"
         height="194"
-        image="/static/images/cards/paella.jpg"
-        alt="Paella dish"
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
