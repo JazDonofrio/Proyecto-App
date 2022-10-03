@@ -27,6 +27,7 @@
     "electron-reload": "^2.0.0-alpha.1",
     "mongoose": "^6.5.2",
     "nodemon": "^2.0.19",
+    "react-router-dom": "^6.4.1",
     "wait-on": "^6.0.1"
   }
 }
