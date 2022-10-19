@@ -5,19 +5,15 @@ import './App.css';
 import AppBar from './ComponentesMaterial/BarraApp';
 import Marco from './ComponentesMaterial/marco/marco';
 import RecipeReviewCard from './ComponentesMaterial/publi';
+import Registro from './ComponentesMaterial/Registro/Registro';
+import Login from './Iniciar sesion/login';
 
 function App() {
 	return (
 		<BrowserRouter>
-			<body> 
-				<div id="mainApp">
-					<div id="contentArea">
-						<div id="mySidebar" className="leftMenu"></div>
-						<div id="contentPage">
-
-						</div>
-					</div>
-				</div>
+			<Routes>
+				<Route path='/' element={<Registro/>} />
+			</Routes>
 				
 
 				<header>
@@ -47,7 +43,6 @@ function App() {
 					</Grid>
 
 				</Grid>
-			</body>
 		</BrowserRouter>
 
 	);
