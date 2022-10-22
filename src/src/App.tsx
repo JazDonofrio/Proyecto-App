@@ -3,9 +3,9 @@ import React from 'react';
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import './App.css';
 import AppBar from './ComponentesMaterial/BarraApp';
-import Marco from './ComponentesMaterial/marco/marco';
+import Marco from './marco/marco';
 import RecipeReviewCard from './ComponentesMaterial/publi';
-import Registro from './ComponentesMaterial/Registro/Registro';
+import Registro from './Registro/Registro';
 import Login from './Iniciar sesion/login';
 
 function App() {

@@ -1,7 +1,7 @@
 import { TextField } from "@mui/material";
 import { Stack } from "@mui/system";
 import * as React from 'react';
-import LoadingButton from "../LoadingButton";
+import LoadingButton from "../ComponentesMaterial/LoadingButton";
 import { Send } from "@mui/icons-material";
 
 
