@@ -7,3 +7,6 @@ mongoose.connect('mongodb://localhost:27017/Proyecto-app')
     console.log("ERROR AL CONECTAR: ", error);
   })
 
+  module.exports = {
+    MongoDB: mongoose,
+  }
