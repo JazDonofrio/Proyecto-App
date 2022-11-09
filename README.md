@@ -51,8 +51,8 @@ Como proyecto final del Laboratorio de construcción de Software vamos a realiza
    
 ###  Jazmin 
  - [x] Estructura del Login
- - [x]Estilo del Login
- - [x]  Rediseño del estilo implementando Material
+ - [x] Estilo del Login
+ - [x] Rediseño del estilo implementando Material
  - [x] Formulario para agregar publicaciones con comentarios
  - [x] Estilo de publicacion 
  - [ ]  Configuracion de la aplicacion
