@@ -5,10 +5,6 @@ const path = require('path')
 
 require("./database/database.js")
 
-require('electron-reload')(__dirname, {
-  electron: path.join(__dirname, 'node_modules', '.bin', 'electron'),
-  hardResetMethod: 'exit'
-});
 function createWindow () {
   // Create the browser window.
   const myWindow = new BrowserWindow({
@@ -20,8 +16,8 @@ function createWindow () {
     webPreferences: {
         nodeIntegration: true,
         contextIsolation: false,
-        devTools: false,
-        preload: path.join(__dirname, 'preload.js')
+        devTools: true,
+   //     preload: path.join(__dirname, 'preload.js')
     }
   })
 
